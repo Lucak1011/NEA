@@ -13,14 +13,14 @@ class EventsForm
     {
         return $schema
             ->components([
-                Textarea::make('Name')
+                Textarea::make('name')
                     ->required()
                     ->columnSpanFull(),
-                DatePicker::make('Date')
+                DatePicker::make('date')
                     ->required(),
-                TimePicker::make('Start Time')
+                TimePicker::make('start_time')
                     ->required(),
-                TimePicker::make('End Time')
+                TimePicker::make('end_time')
                     ->required(),
             ]);
     }
