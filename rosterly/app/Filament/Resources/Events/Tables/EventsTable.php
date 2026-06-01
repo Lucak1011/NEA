@@ -19,10 +19,10 @@ class EventsTable
                     ->date()
                     ->sortable(),
                 TextColumn::make('start_time')
-                    ->time()
+                    ->time('H:i')
                     ->sortable(),
                 TextColumn::make('end_time')
-                    ->time()
+                    ->time('H:i')
                     ->sortable(),
                 TextColumn::make('updated_at')
                     ->dateTime()
