@@ -15,7 +15,7 @@ class EventsTable
         return $table
             ->columns([
                 TextColumn::make('name'),
-                TextColumn::make('Date')
+                TextColumn::make('date')
                     ->date()
                     ->sortable(),
                 TextColumn::make('start_time')
