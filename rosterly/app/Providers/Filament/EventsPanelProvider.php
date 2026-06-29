@@ -20,24 +20,22 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 
-class AdminPanelProvider extends PanelProvider
+class EventsPanelProvider extends PanelProvider
 {
     public function panel(Panel $panel): Panel
     {
         return $panel
-            ->default()
-            ->id('admin')
-            ->path('management')
-            ->login()
+            ->id('events')
+            ->path('events')
             ->colors([
                 'primary' => Color::Sky,
             ])
-            ->discoverResources(in: app_path('Filament/Resources'), for: 'App\Filament\Resources')
-            ->discoverPages(in: app_path('Filament/Pages'), for: 'App\Filament\Pages')
+            ->discoverResources(in: app_path('Filament/Events/Resources'), for: 'App\Filament\Events\Resources')
+            ->discoverPages(in: app_path('Filament/Events/Pages'), for: 'App\Filament\Events\Pages')
             ->pages([
                 Dashboard::class,
             ])
-            ->discoverWidgets(in: app_path('Filament/Widgets'), for: 'App\Filament\Widgets')
+            ->discoverWidgets(in: app_path('Filament/Events/Widgets'), for: 'App\Filament\Events\Widgets')
             ->widgets([
                 AccountWidget::class,
                 FilamentInfoWidget::class,
@@ -54,9 +52,9 @@ class AdminPanelProvider extends PanelProvider
                 DispatchServingFilamentEvent::class,
             ])
             ->navigationItems([
-             navigationItem::make('Events Panel')
-                ->url('/events')
-                ->icon('heroicon-o-calendar')
+                navigationItem::make('Management Panel')
+                    ->url('/management')
+                    ->icon('heroicon-o-briefcase')
             ])
             ->authMiddleware([
                 Authenticate::class,
