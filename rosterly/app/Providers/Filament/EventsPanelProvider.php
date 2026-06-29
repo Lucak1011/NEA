@@ -27,7 +27,7 @@ class EventsPanelProvider extends PanelProvider
             ->id('events')
             ->path('events')
             ->colors([
-                'primary' => Color::Amber,
+                'primary' => Color::Sky,
             ])
             ->discoverResources(in: app_path('Filament/Events/Resources'), for: 'App\Filament\Events\Resources')
             ->discoverPages(in: app_path('Filament/Events/Pages'), for: 'App\Filament\Events\Pages')
