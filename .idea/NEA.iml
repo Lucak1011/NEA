@@ -4,6 +4,10 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/rosterly/tests/Feature" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/rosterly/tests/Unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/rosterly/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/rosterly/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/rosterly/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/rosterly/tests" isTestSource="true" packagePrefix="Tests\" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/bacon/bacon-qr-code" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/blade-ui-kit/blade-heroicons" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/blade-ui-kit/blade-icons" />
@@ -168,6 +172,8 @@
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/web-auth/cose-lib" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/web-auth/webauthn-lib" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/rosterly/storage/app" />
+      <excludeFolder url="file://$MODULE_DIR$/rosterly/storage/framework" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
