@@ -13,5 +13,10 @@ class test_data extends Seeder
     public function run(): void
     {
         //
+        DB::table('Users')->insert([
+            'name' => ('User'),
+            'email' => Str::random(10).'@example.com',
+            'password' => Hash::make('Hello')
+        ]);
     }
 }
