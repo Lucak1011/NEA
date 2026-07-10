@@ -15,6 +15,11 @@
     <option name="highlightLevel" value="WARNING" />
     <option name="transferred" value="true" />
   </component>
+  <component name="PhpCodeSniffer">
+    <phpcs_settings>
+      <phpcs_by_interpreter asDefaultInterpreter="true" interpreter_id="52ed18b4-dccc-4801-b7c7-9db07317c1ad" timeout="30000" />
+    </phpcs_settings>
+  </component>
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/polyfill-php85" />
@@ -181,10 +186,16 @@
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/polyfill-intl-idn" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/spatie/laravel-permission" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.3">
     <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStan">
+    <PhpStan_settings>
+      <phpstan_by_interpreter asDefaultInterpreter="true" interpreter_id="52ed18b4-dccc-4801-b7c7-9db07317c1ad" timeout="60000" />
+    </PhpStan_settings>
   </component>
   <component name="PhpStanOptionsConfiguration">
     <option name="transferred" value="true" />
@@ -193,6 +204,11 @@
     <phpunit_settings>
       <PhpUnitSettings configuration_file_path="$PROJECT_DIR$/rosterly/phpunit.xml" custom_loader_path="$PROJECT_DIR$/rosterly/vendor/autoload.php" use_configuration_file="true" />
     </phpunit_settings>
+  </component>
+  <component name="Psalm">
+    <Psalm_settings>
+      <psalm_fixer_by_interpreter asDefaultInterpreter="true" interpreter_id="52ed18b4-dccc-4801-b7c7-9db07317c1ad" timeout="60000" />
+    </Psalm_settings>
   </component>
   <component name="PsalmOptionsConfiguration">
     <option name="transferred" value="true" />
