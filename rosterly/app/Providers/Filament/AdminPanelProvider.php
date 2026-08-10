@@ -55,6 +55,8 @@ class AdminPanelProvider extends PanelProvider
                 DisableBladeIconComponents::class,
                 DispatchServingFilamentEvent::class,
             ])
+            ->plugin(FilamentSpatieRolesPermissionsPlugin::make())
+
             ->navigationItems([
              navigationItem::make('Events Panel')
                 ->url('/events')

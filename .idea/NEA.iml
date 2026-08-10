@@ -31,11 +31,8 @@
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/filament/forms" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/filament/infolists" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/filament/notifications" />
-      <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/filament/query-builder" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/filament/schemas" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/filament/support" />
-      <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/filament/tables" />
-      <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/filament/widgets" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/filp/whoops" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/fruitcake/php-cors" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/graham-campbell/result-type" />
