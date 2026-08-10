@@ -14,6 +14,7 @@ class UserForm
                 TextInput::make("name") -> required(),
                 TextInput::make("email")->required(),
                 TextInput::make("password")->password() ->required(),
+
             ]);
     }
 }

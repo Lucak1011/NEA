@@ -26,15 +26,11 @@
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/polyfill-php84" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/polyfill-uuid" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/polyfill-php86" />
-      <path value="$PROJECT_DIR$/rosterly/vendor/symfony/property-access" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/process" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/routing" />
-      <path value="$PROJECT_DIR$/rosterly/vendor/symfony/property-info" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/service-contracts" />
-      <path value="$PROJECT_DIR$/rosterly/vendor/symfony/serializer" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/translation" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/string" />
-      <path value="$PROJECT_DIR$/rosterly/vendor/symfony/type-info" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/var-dumper" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/uid" />
@@ -54,7 +50,6 @@
       <path value="$PROJECT_DIR$/rosterly/vendor/livewire/livewire" />
       <path value="$PROJECT_DIR$/rosterly/vendor/web-auth/webauthn-lib" />
       <path value="$PROJECT_DIR$/rosterly/vendor/blade-ui-kit/blade-icons" />
-      <path value="$PROJECT_DIR$/rosterly/vendor/web-auth/cose-lib" />
       <path value="$PROJECT_DIR$/rosterly/vendor/blade-ui-kit/blade-heroicons" />
       <path value="$PROJECT_DIR$/rosterly/vendor/fruitcake/php-cors" />
       <path value="$PROJECT_DIR$/rosterly/vendor/carbonphp/carbon-doctrine-types" />
@@ -75,13 +70,11 @@
       <path value="$PROJECT_DIR$/rosterly/vendor/sebastian/version" />
       <path value="$PROJECT_DIR$/rosterly/vendor/sebastian/type" />
       <path value="$PROJECT_DIR$/rosterly/vendor/guzzlehttp/guzzle" />
-      <path value="$PROJECT_DIR$/rosterly/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/rosterly/vendor/guzzlehttp/psr7" />
       <path value="$PROJECT_DIR$/rosterly/vendor/guzzlehttp/promises" />
       <path value="$PROJECT_DIR$/rosterly/vendor/nunomaduro/collision" />
       <path value="$PROJECT_DIR$/rosterly/vendor/pragmarx/google2fa-qrcode" />
       <path value="$PROJECT_DIR$/rosterly/vendor/guzzlehttp/uri-template" />
-      <path value="$PROJECT_DIR$/rosterly/vendor/spomky-labs/cbor-php" />
       <path value="$PROJECT_DIR$/rosterly/vendor/nunomaduro/termwind" />
       <path value="$PROJECT_DIR$/rosterly/vendor/tijsverkoyen/css-to-inline-styles" />
       <path value="$PROJECT_DIR$/rosterly/vendor/spomky-labs/pki-framework" />
@@ -147,7 +140,6 @@
       <path value="$PROJECT_DIR$/rosterly/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/rosterly/vendor/filament/filament" />
       <path value="$PROJECT_DIR$/rosterly/vendor/laravel/serializable-closure" />
-      <path value="$PROJECT_DIR$/rosterly/vendor/filament/actions" />
       <path value="$PROJECT_DIR$/rosterly/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/rosterly/vendor/filament/infolists" />
       <path value="$PROJECT_DIR$/rosterly/vendor/mockery/mockery" />
@@ -187,6 +179,21 @@
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/polyfill-mbstring" />
       <path value="$PROJECT_DIR$/rosterly/vendor/spatie/laravel-permission" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/althinect/filament-spatie-roles-permissions" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/filament/actions" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/filament/query-builder" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/filament/tables" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/filament/widgets" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/filament/query-builder" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/filament/tables" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/filament/widgets" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/spomky-labs/cbor-php" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/web-auth/cose-lib" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/symfony/type-info" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.3">

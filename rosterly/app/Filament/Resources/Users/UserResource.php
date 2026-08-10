@@ -30,6 +30,7 @@ class UserResource extends Resource
     public static function table(Table $table): Table
     {
         return UsersTable::configure($table);
+
     }
 
     public static function getRelations(): array

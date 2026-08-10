@@ -15,7 +15,7 @@ class UsersTable
         return $table
             ->columns([
                 TextColumn::make("name"),
-                TextColumn::make("email")
+                TextColumn::make("email"),
             ])
             ->filters([
                 //
