@@ -3,6 +3,7 @@
 namespace App\Models;
 
 // use Illuminate\Contracts\Auth\MustVerifyEmail;
+use Althinect\FilamentSpatieRolesPermissions\Concerns\HasSuperAdmin;
 use Database\Factories\UserFactory;
 use Illuminate\Database\Eloquent\Attributes\Fillable;
 use Illuminate\Database\Eloquent\Attributes\Hidden;
@@ -21,6 +22,7 @@ class User extends Authenticatable implements PasskeyUser
 {
     /** @use HasFactory<UserFactory> */
     use HasFactory, Notifiable, HasRoles, PasskeyAuthenticatable, TwoFactorAuthenticatable;
+    use HasSuperAdmin;
 
     /**
      * Get the attributes that should be cast.
