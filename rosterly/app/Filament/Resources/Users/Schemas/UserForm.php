@@ -13,7 +13,7 @@ class UserForm
             ->components([
                 TextInput::make("name") -> required(),
                 TextInput::make("email")->required(),
-                TextInput::make("password")->password() ->required(),
+                TextInput::make("password")->password() ->required(false),
 
             ]);
     }
