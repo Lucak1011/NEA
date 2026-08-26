@@ -56,7 +56,6 @@
       <path value="$PROJECT_DIR$/rosterly/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/rosterly/vendor/paragonie/constant_time_encoding" />
       <path value="$PROJECT_DIR$/rosterly/vendor/sebastian/cli-parser" />
-      <path value="$PROJECT_DIR$/rosterly/vendor/ralouphie/getallheaders" />
       <path value="$PROJECT_DIR$/rosterly/vendor/sebastian/complexity" />
       <path value="$PROJECT_DIR$/rosterly/vendor/sebastian/comparator" />
       <path value="$PROJECT_DIR$/rosterly/vendor/sebastian/environment" />
@@ -194,6 +193,8 @@
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/property-info" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/serializer" />
       <path value="$PROJECT_DIR$/rosterly/vendor/symfony/type-info" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/anourvalar/eloquent-serialize" />
+      <path value="$PROJECT_DIR$/rosterly/vendor/symfony/polyfill-php82" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.3">

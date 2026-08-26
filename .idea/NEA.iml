@@ -101,7 +101,6 @@
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/psr/simple-cache" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/psy/psysh" />
-      <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/ralouphie/getallheaders" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/ramsey/collection" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/ramsey/uuid" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/ryangjchandler/blade-capture-directive" />
@@ -171,6 +170,8 @@
       <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/webmozart/assert" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/storage/app" />
       <excludeFolder url="file://$MODULE_DIR$/rosterly/storage/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/anourvalar/eloquent-serialize" />
+      <excludeFolder url="file://$MODULE_DIR$/rosterly/vendor/symfony/polyfill-php82" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
