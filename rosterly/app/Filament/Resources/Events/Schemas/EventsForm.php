@@ -17,7 +17,8 @@ class EventsForm
                     ->required()
                     ->columnSpanFull(),
                 DatePicker::make('date')
-                    ->required(),
+                    ->required()
+                    ->native(false),
                 TimePicker::make('start_time')
                     ->required(),
                 TimePicker::make('end_time')
