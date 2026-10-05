@@ -4,6 +4,13 @@ from tkinter import ttk
 
 #Variables
 
+## Configuration consts
+
+buttonConfig1 = {
+    "height":5,
+    "width":12
+}
+
 ## Colours
 BGCOLOUR = '#17375E' # Vatsim UK Dark blue
 LIGHTBLUE = '#25ADE3' # Vatsim UK light blue
@@ -49,7 +56,7 @@ manageUsersButton = (tk.Button(text="Manage Users"))
 ## Main Menu end
 # End of buttons
 #Button grid for main menu
-createEventButton.grid(column=1,row=1,padx=20,pady=20)
+createEventButton.grid(column=1,row=1,padx=20,pady=20) #Specifies where the buttons should be in the grid, and the size of the padding, applies to all lines in the # Button grid for main menu section
 viewEventButton.grid(column=1,row =2,padx=20,pady=20)
 manageEventButton.grid(column=1,row=3,padx=20,pady=20)
 
@@ -63,17 +70,17 @@ manageUsersButton.grid(column=3,row=3,padx=20,pady=20)
 
 # Button config
 
-createEventButton.config(height=5, width=12)
-viewEventButton.config(height=5,width=12)
-manageEventButton.config(height=5,width=12)
+createEventButton.config(**buttonConfig1) #Specifies the height and width for each button, applies to all lines in the #Button config section.
+viewEventButton.config(**buttonConfig1)
+manageEventButton.config(**buttonConfig1)
 
-createRosterButton.config(height=5, width=12)
-viewRosterButton.config(height=5,width=12)
-editRosterButton.config(height=5,width=12)
+createRosterButton.config(**buttonConfig1)
+viewRosterButton.config(**buttonConfig1)
+editRosterButton.config(**buttonConfig1)
 
-createUsersButton.config(height=5, width=12)
-viewUsersButton.config(height=5,width=12)
-manageUsersButton.config(height=5,width=12)
+createUsersButton.config(**buttonConfig1)
+viewUsersButton.config(**buttonConfig1)
+manageUsersButton.config(**buttonConfig1)
 
 # End button config
 
