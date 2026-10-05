@@ -6,7 +6,7 @@ from tkinter import ttk
 
 ## Configuration consts
 
-buttonConfig1 = {
+buttonConfig1 = { # Used in main menu
     "height":5,
     "width":12
 }
