@@ -15,6 +15,7 @@ buttonConfig1 = { # Used in main menu
 BGCOLOUR = '#17375E' # Vatsim UK Dark blue
 LIGHTBLUE = '#25ADE3' # Vatsim UK light blue
 WHITE = '#FFFFFF'
+EXIT_RED = '#a8311e'
 
 app = tk.Tk()
 
@@ -53,6 +54,10 @@ manageUsersButton = (tk.Button(text="Manage Users"))
 
 ### End User Management
 
+### Other buttons
+
+exitButton = (tk.Button(text="Exit", command=app.destroy, bg=EXIT_RED))
+
 ## Main Menu end
 # End of buttons
 #Button grid for main menu
@@ -68,6 +73,7 @@ createUsersButton.grid(column=3,row=1,padx=20,pady=20)
 viewUsersButton.grid(column=3,row=2,padx=20,pady=20)
 manageUsersButton.grid(column=3,row=3,padx=20,pady=20)
 
+exitButton.grid(column=1,row=5,pady=40)
 # Button config
 
 createEventButton.config(**buttonConfig1) #Specifies the height and width for each button, applies to all lines in the #Button config section.
@@ -81,7 +87,14 @@ editRosterButton.config(**buttonConfig1)
 createUsersButton.config(**buttonConfig1)
 viewUsersButton.config(**buttonConfig1)
 manageUsersButton.config(**buttonConfig1)
+exitButton.config(**buttonConfig1)
 
 # End button config
+
+app.columnconfigure(0, weight=1)
+app.columnconfigure(5, weight=1)
+app.rowconfigure(0, weight=1)
+app.rowconfigure(2, weight=1)
+
 
 app.mainloop()
