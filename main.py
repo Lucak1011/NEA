@@ -1,4 +1,3 @@
-import tkinter
 import tkinter as tk
 import tkcalendar as tkcal
 from tkinter import ttk
@@ -72,17 +71,17 @@ exitButton = (tk.Button(text="Exit", command=app.destroy, bg=EXIT_RED))
 ## Main Menu end
 # End of buttons
 #Button grid for main menu
-createEventButton.grid(column=1,row=2,**buttonPadding1) #Specifies where the buttons should be in the grid, and the size of the padding, applies to all lines in the # Button grid for main menu section
-viewEventButton.grid(column=1,row =3,**buttonPadding1)
-manageEventButton.grid(column=1,row=4,**buttonPadding1)
+createEventButton.grid(column=1,row=1,**buttonPadding1) #Specifies where the buttons should be in the grid, and the size of the padding, applies to all lines in the # Button grid for main menu section
+viewEventButton.grid(column=1,row =2,**buttonPadding1)
+manageEventButton.grid(column=1,row=3,**buttonPadding1)
 
-createRosterButton.grid(column=2,row=2,**buttonPadding1)
-viewRosterButton.grid(column=2,row=3,**buttonPadding1)
-editRosterButton.grid(column=2,row=4,**buttonPadding1)
+createRosterButton.grid(column=2,row=1,**buttonPadding1)
+viewRosterButton.grid(column=2,row=2,**buttonPadding1)
+editRosterButton.grid(column=2,row=3,**buttonPadding1)
 
-createUsersButton.grid(column=3,row=2,**buttonPadding1)
-viewUsersButton.grid(column=3,row=3,**buttonPadding1)
-manageUsersButton.grid(column=3,row=4,**buttonPadding1)
+createUsersButton.grid(column=3,row=1,**buttonPadding1)
+viewUsersButton.grid(column=3,row=2,**buttonPadding1)
+manageUsersButton.grid(column=3,row=3,**buttonPadding1)
 
 exitButton.grid(column=1,row=5,pady=40)
 # Button config
@@ -101,9 +100,6 @@ manageUsersButton.config(**buttonConfig1)
 exitButton.config(**buttonConfig1)
 
 # End button config
-
-titleLable = tk.Label(app,text="ROSTERLY", bg=BGCOLOUR,font="Calibri 24", fg=WHITE)
-titleLable.grid(column=2, row=1)
 
 app.columnconfigure(0, weight=1)
 app.columnconfigure(5, weight=1)
